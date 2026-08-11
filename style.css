@@ -23,7 +23,7 @@ a {
 }
 
 section {
-    min-height: 100vh;
+    min-height: auto;
 }
 
 
@@ -289,22 +289,21 @@ section {
 ========================= */
 
 .section {
-    min-height: 100vh;
+    min-height: auto;
 
-    padding: 120px 8% 80px;
+    padding: 80px 8%;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 
     text-align: center;
 }
 
 .section-title {
     font-size: 45px;
-    margin-bottom: 30px;
-
+    margin-bottom: 20px;
+}
     color: #ffffff;
 }
 
